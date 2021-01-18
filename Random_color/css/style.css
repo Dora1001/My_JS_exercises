@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    align-self: center;
+    text-align: center;
+    color: white;
+    width: 13em;
+    height: 13em;
+    margin: 1em;
+    background-color: skyblue;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
