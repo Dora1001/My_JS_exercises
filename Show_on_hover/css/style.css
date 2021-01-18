@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent {
+    width: 13em;
+    height: 13em;
+    border: 2px solid cornflowerblue;
+    margin: 2em 0.5em;
+    border-radius: 1.5em;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.children {
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: none;
+}
