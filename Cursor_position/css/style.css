@@ -1,0 +1,11 @@
+.box {
+    background-color: royalblue;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.big {
+    width: 80%;
+    height: 20em;
+    margin: 3em 10%;
+}
