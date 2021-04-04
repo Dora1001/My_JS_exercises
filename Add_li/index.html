@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add li</title>
 </head>
 
 <body>
@@ -22,42 +22,39 @@
             display: block;
             margin: 15px auto;
         }
-
     </style>
 
-<button>CLICK ME</button>
+    <button>CLICK ME</button>
 
-<ul>
+    <ul>
 
 
-</ul>
+    </ul>
 
     <script>
- const btn = document.querySelector('button');
- const ul = document.querySelector('ul')
+        const btn = document.querySelector('button');
+        const ul = document.querySelector('ul')
 
- let number = 1;
+        let number = 1;
 
- btn.addEventListener ('click', function() {
+        btn.addEventListener('click', function () {
 
-const li = document.createElement ('li');
+            const li = document.createElement('li');
 
-if (number %3 == 0) {
+            if (number % 3 == 0) {
 
-li.classList.add ('big');
+                li.classList.add('big');
 
-}
-
-
-ul.appendChild (li);
-
-li.textContent = number;
-
-number +=2;
-
-});
+            }
 
 
+            ul.appendChild(li);
+
+            li.textContent = number;
+
+            number += 2;
+
+        });ś
     </script>
 
 
